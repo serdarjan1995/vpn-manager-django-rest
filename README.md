@@ -94,6 +94,8 @@ Also create symlink to this file in `/etc/nginx/sites-enabled` directory.
 sudo mv VpnManger.nginx /etc/nginx/sites-available/
 sudo ln -s /etc/nginx/sites-available/VpnManger.nginx /etc/nginx/sites-enabled/
 ```
+***!!! Modify `VpnManger.nginx`  
+Change `root = /opt/VpnManager` line according to project path located at your machine***
 
 Run app
 ```
