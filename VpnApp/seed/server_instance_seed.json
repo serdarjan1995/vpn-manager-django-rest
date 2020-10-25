@@ -1,0 +1,158 @@
+[
+{
+    "model": "VpnApp.vpnserver",
+    "pk": "108.70.84.163",
+    "fields": {
+        "country": "US",
+        "city": "Texas",
+        "free": true
+    }
+},
+{
+    "model": "VpnApp.vpnserver",
+    "pk": "187.139.33.86",
+    "fields": {
+        "country": "PL",
+        "city": null,
+        "free": true
+    }
+},
+{
+    "model": "VpnApp.vpnserver",
+    "pk": "50.137.244.216",
+    "fields": {
+        "country": "RU",
+        "city": null,
+        "free": false
+    }
+},
+{
+    "model": "VpnApp.vpnserver",
+    "pk": "65.77.121.91",
+    "fields": {
+        "country": "DE",
+        "city": "Berlin",
+        "free": true
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 1,
+    "fields": {
+        "server": "65.77.121.91",
+        "port": 443,
+        "protocol": "tcp",
+        "auth": true
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 2,
+    "fields": {
+        "server": "65.77.121.91",
+        "port": 5000,
+        "protocol": "tcp",
+        "auth": false
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 3,
+    "fields": {
+        "server": "65.77.121.91",
+        "port": 8900,
+        "protocol": "udp",
+        "auth": false
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 4,
+    "fields": {
+        "server": "187.139.33.86",
+        "port": 1194,
+        "protocol": "udp",
+        "auth": true
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 5,
+    "fields": {
+        "server": "187.139.33.86",
+        "port": 443,
+        "protocol": "tcp",
+        "auth": true
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 6,
+    "fields": {
+        "server": "187.139.33.86",
+        "port": 9054,
+        "protocol": "udp",
+        "auth": false
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 7,
+    "fields": {
+        "server": "50.137.244.216",
+        "port": 5001,
+        "protocol": "udp",
+        "auth": false
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 8,
+    "fields": {
+        "server": "108.70.84.163",
+        "port": 9000,
+        "protocol": "tcp",
+        "auth": true
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 9,
+    "fields": {
+        "server": "108.70.84.163",
+        "port": 9001,
+        "protocol": "udp",
+        "auth": true
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 10,
+    "fields": {
+        "server": "108.70.84.163",
+        "port": 11092,
+        "protocol": "tcp",
+        "auth": false
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 11,
+    "fields": {
+        "server": "108.70.84.163",
+        "port": 11093,
+        "protocol": "udp",
+        "auth": false
+    }
+},
+{
+    "model": "VpnApp.vpninstance",
+    "pk": 13,
+    "fields": {
+        "server": "108.70.84.163",
+        "port": 443,
+        "protocol": "tcp",
+        "auth": false
+    }
+}
+]

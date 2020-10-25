@@ -1,0 +1,17 @@
+upstream django {
+    server unix:///tmp/VpnManager.sock;
+}
+server {
+    listen 80;
+    server_name _;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /opt/VpnManager;
+    }
+
+    location / {
+        include         uwsgi_params;
+        uwsgi_pass      django;
+    }
+}
